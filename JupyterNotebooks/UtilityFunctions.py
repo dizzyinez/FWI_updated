@@ -17,7 +17,6 @@ import numpy as np
 import IPython.display as dp
 import matplotlib.pyplot as plt
 
-from scipy.integrate import simps
 from PIL import Image
 
 # Some utility functions (written by Ridvan Orsvuran)
