@@ -68,9 +68,6 @@ MODEL                           = default
 # (available output formats: ascii,binary,gll,legacy)
 SAVE_MODEL                      = default
 
-# external tomography file
-# (used for tomography materials with negative material ids and/or MODEL==tomo settings)
-TOMOGRAPHY_FILE                 = dummy
 
 #-----------------------------------------------------------
 #
@@ -270,6 +267,9 @@ nbmodels                        = 4
 2 1 2500.d0 2700.d0 0 0 0 9999 9999 0 0 0 0 0 0
 3 1 2200.d0 2500.d0 1443.375d0 0 0 9999 9999 0 0 0 0 0 0
 4 1 2200.d0 2200.d0 1343.375d0 0 0 9999 9999 0 0 0 0 0 0
+
+# external tomography file
+TOMOGRAPHY_FILE                 = ./DATA/tomo_file.xyz
 
 # use an external mesh created by an external meshing tool or use the internal mesher
 read_external_mesh              = .false.
