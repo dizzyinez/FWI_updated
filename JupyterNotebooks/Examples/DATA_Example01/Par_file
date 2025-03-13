@@ -70,7 +70,7 @@ SAVE_MODEL                      = default
 
 # external tomography file
 # (used for tomography materials with negative material ids and/or MODEL==tomo settings)
-TOMOGRAPHY_FILE                 = dummy
+TOMOGRAPHY_FILE                 = DATA/tomo_file.xyz
 
 #-----------------------------------------------------------
 #
